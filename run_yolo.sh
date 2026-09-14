@@ -5,9 +5,9 @@ set -euo pipefail
 MODEL_NAME="yolo11n.pt"
 N_EPOCHS=50
 BATCH_SIZE=16
-OUTPUT_DIR="L3HarrisChadDroneDemo/model_results/synthetic_only2"
-TRAIN_YAML="flux1_lora_2k_500_yolo/data.yaml"
-TEST_YAML="FLIR_drone_YRIKKA_frames_cropped_annotations/yolo/data.yaml"
+OUTPUT_DIR="output"
+TRAIN_YAML="train_data.yaml"
+TEST_YAML="test_data.yaml"
 TEST_ONLY=false
 
 while [[ $# -gt 0 ]]; do

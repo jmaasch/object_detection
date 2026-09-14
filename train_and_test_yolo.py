@@ -14,9 +14,9 @@ def parse_args():
     parser.add_argument("--model_name", default="yolo11n.pt", help="Model checkpoint file or YOLO model name.")
     parser.add_argument("--n_epochs", type=int, default=50, help="Number of training epochs.")
     parser.add_argument("--batch_size", type=int, default=16, help="Training batch size.")
-    parser.add_argument("--output_dir", default="L3HarrisChadDroneDemo/model_results/synthetic_only2", help="Directory where artifacts will be written.")
-    parser.add_argument("--train_yaml", default="flux1_lora_2k_500_yolo/data.yaml", help="Path to the training data YAML.")
-    parser.add_argument("--test_yaml", default="FLIR_drone_YRIKKA_frames_cropped_annotations/yolo/data.yaml", help="Path to the validation/test data YAML.")
+    parser.add_argument("--output_dir", default="output", help="Directory where artifacts will be written.")
+    parser.add_argument("--train_yaml", default="train_data.yaml", help="Path to the training data YAML.")
+    parser.add_argument("--test_yaml", default="test_data.yaml", help="Path to the validation/test data YAML.")
     parser.add_argument("--test_only", action="store_true", help="Skip training and validate an existing model on test data only.")
     return parser.parse_args()
 
