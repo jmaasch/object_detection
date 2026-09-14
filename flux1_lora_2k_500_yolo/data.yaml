@@ -1,7 +1,7 @@
 names:
 - drone
 nc: 1
-path: /data/od_datasets/l3harris_chad_drone/synthetic_data/flux1_lora2k_500_annotations/yolo
+path: flux1_lora_2k_500_yolo/
 test: images/train
 train: images/train
 val: images/train
