@@ -1,0 +1,7 @@
+names:
+- truck
+nc: 1
+path: data/f5ddba02-4295-48d9-8ad5-ba8583871323/bc6ba36c-aa02-4630-a0ea-4150b9b69e36/
+test: images_split/train
+train: images_split/train
+val: images_split/train
