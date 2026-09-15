@@ -21,7 +21,7 @@ labels_dir = dataset_root / "labels"
 labels_dir.mkdir(parents=True, exist_ok=True)
 
 repaired_json = labels_dir / "coco_processed.json"
-image_dir = dataset_root / "images/train"
+image_dir = dataset_root / "Synthetic"
 save_dir = dataset_root / "yolo_converted"
 
 with input_json.open("r", encoding="utf-8") as file:
